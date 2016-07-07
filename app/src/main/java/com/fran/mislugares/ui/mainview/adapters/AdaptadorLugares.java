@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.mainview.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
+
+import com.fran.mislugares.R;
+import com.fran.mislugares.domain.Lugares;
+import com.fran.mislugares.entities.Lugar;
+import com.fran.mislugares.ui.mainview.MainActivity;
 
 /**
  * Created by fran on 4/5/16.

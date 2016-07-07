@@ -1,4 +1,6 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.entities;
+
+import com.fran.mislugares.R;
 
 /**
  * Created by francisco on 08/05/15.

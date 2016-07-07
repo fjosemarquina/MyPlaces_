@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.entities;
 
 /**
  * Created by francisco on 07/05/15.

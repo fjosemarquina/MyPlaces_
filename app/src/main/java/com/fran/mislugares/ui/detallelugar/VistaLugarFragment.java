@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.detallelugar;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -27,6 +27,13 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
+
+import com.fran.mislugares.R;
+import com.fran.mislugares.ui.utils.SelectorFragment;
+import com.fran.mislugares.entities.Lugar;
+import com.fran.mislugares.ui.mainview.MainActivity;
+import com.fran.mislugares.ui.utils.DialogoSelectorFecha;
+import com.fran.mislugares.ui.utils.DialogoSelectorHora;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,6 +1,5 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.utils;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,6 +7,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.fran.mislugares.R;
+import com.fran.mislugares.ui.mainview.MainActivity;
+import com.fran.mislugares.ui.mainview.adapters.AdaptadorLugaresBD;
 
 /**
  * Created by fran on 31/5/16.

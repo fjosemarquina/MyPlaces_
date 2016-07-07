@@ -1,7 +1,11 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.mainview.adapters;
 
 import android.content.Context;
 import android.database.Cursor;
+
+import com.fran.mislugares.domain.Lugares;
+import com.fran.mislugares.domain.LugaresBD;
+import com.fran.mislugares.entities.Lugar;
 
 /**
  * Created by fran on 25/5/16.

@@ -1,4 +1,7 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.domain;
+
+import com.fran.mislugares.entities.TipoLugar;
+import com.fran.mislugares.entities.Lugar;
 
 import java.util.ArrayList;
 import java.util.List;

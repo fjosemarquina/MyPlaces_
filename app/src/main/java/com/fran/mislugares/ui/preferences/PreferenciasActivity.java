@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.preferences;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

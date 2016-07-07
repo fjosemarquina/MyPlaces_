@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares;
 
 import org.junit.Test;
 

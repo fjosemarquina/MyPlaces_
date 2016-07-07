@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.detallelugar;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,13 +7,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.RatingBar;
 import android.widget.Spinner;
-import android.widget.TextView;
 
-import java.text.DateFormat;
-import java.util.Date;
+import com.fran.mislugares.R;
+import com.fran.mislugares.ui.utils.SelectorFragment;
+import com.fran.mislugares.entities.Lugar;
+import com.fran.mislugares.entities.TipoLugar;
+import com.fran.mislugares.ui.mainview.MainActivity;
 
 /**
  * Created by fran on 27/4/16.

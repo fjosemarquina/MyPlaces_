@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.mapa;
 
 import android.Manifest;
 import android.content.Intent;
@@ -9,6 +9,12 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 
+import com.fran.mislugares.R;
+import com.fran.mislugares.ui.utils.SelectorFragment;
+import com.fran.mislugares.ui.detallelugar.VistaLugarActivity;
+import com.fran.mislugares.entities.GeoPunto;
+import com.fran.mislugares.entities.Lugar;
+import com.fran.mislugares.ui.mainview.MainActivity;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -41,7 +47,7 @@ public class MapaActivity extends FragmentActivity implements GoogleMap.OnInfoWi
             mapa.moveCamera(CameraUpdateFactory.newLatLngZoom(
                     new LatLng(p.getLatitud(), p.getLongitud()), 12));
         }
-        for (int n=0; n<MainActivity.lugares.tamanyo(); n++) {
+        for (int n = 0; n< MainActivity.lugares.tamanyo(); n++) {
             Lugar lugar = MainActivity.lugares.elemento(n);
             GeoPunto p = lugar.getPosicion();
             if (p != null && p.getLatitud() != 0) {

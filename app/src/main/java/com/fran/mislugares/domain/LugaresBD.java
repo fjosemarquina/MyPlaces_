@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.domain;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,6 +6,11 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.preference.PreferenceManager;
+
+import com.fran.mislugares.ui.mainview.MainActivity;
+import com.fran.mislugares.entities.TipoLugar;
+import com.fran.mislugares.entities.GeoPunto;
+import com.fran.mislugares.entities.Lugar;
 
 /**
  * Created by fran on 25/5/16.

@@ -1,11 +1,6 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.domain;
 
-import android.content.Context;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.fran.mislugares.entities.Lugar;
 
 /**
  * Created by francisco on 08/05/15.

@@ -1,7 +1,9 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.detallelugar;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.fran.mislugares.R;
 
 /**
  * Created by fran on 27/4/16.

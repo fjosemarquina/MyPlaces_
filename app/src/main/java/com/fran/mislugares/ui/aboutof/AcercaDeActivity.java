@@ -1,7 +1,9 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.aboutof;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.fran.mislugares.R;
 
 /**
  * Created by fran on 26/4/16.

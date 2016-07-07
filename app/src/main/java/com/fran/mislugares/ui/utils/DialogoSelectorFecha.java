@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.utils;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;

@@ -1,4 +1,4 @@
-package com.fran.mislugares2016;
+package com.fran.mislugares.ui.mainview;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -17,8 +17,6 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
@@ -26,6 +24,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.fran.mislugares.ui.aboutof.AcercaDeActivity;
+import com.fran.mislugares.ui.detallelugar.EdicionLugarActivity;
+import com.fran.mislugares.ui.preferences.PreferenciasActivity;
+import com.fran.mislugares.R;
+import com.fran.mislugares.ui.utils.SelectorFragment;
+import com.fran.mislugares.ui.detallelugar.VistaLugarActivity;
+import com.fran.mislugares.ui.detallelugar.VistaLugarFragment;
+import com.fran.mislugares.domain.LugaresBD;
+import com.fran.mislugares.entities.GeoPunto;
+import com.fran.mislugares.ui.mapa.MapaActivity;
 
 public class MainActivity extends AppCompatActivity implements LocationListener {
 
